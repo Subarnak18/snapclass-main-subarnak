@@ -135,6 +135,12 @@ def style_base_layout():
             transform: scale(1.05);
         }
 
+        /* ---------- Warning Message ---------- */
+
+        div[data-testid="stAlert"] p {
+            color: black !important;
+        }
+
 
         /* =====================================================
            SHARE CLASS LINK DIALOG
